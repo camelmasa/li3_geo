@@ -15,7 +15,7 @@ class MockService extends \lithium\core\Object {
 	/**
 	 * Service implementation method so that this class can be used as a mock.
 	 *
-	 * @param string $url 
+	 * @param string $url
 	 * @return void
 	 */
 	public function get($url) {

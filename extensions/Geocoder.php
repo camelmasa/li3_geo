@@ -50,7 +50,7 @@ class Geocoder extends \lithium\core\StaticObject {
 	 * method that accepts a `$unit` parameter.  All `$unit` parameters also accept an arbitrary
 	 * float value to use for distance conversions.  Unit values are represented as follows:
 	 * M: miles, K: kilometers, N: nautical miles, I: inches, F: feet
-	 * 
+	 *
 	 * @var array
 	 */
 	protected static $_units = array(
@@ -168,7 +168,7 @@ class Geocoder extends \lithium\core\StaticObject {
 
 	/**
 	 * Get latitude/longitude points for given address from web service (i.e. Google / Yahoo!).
-	 * 
+	 *
 	 * @param string $address The address to geocode.
 	 * @return array Latitude and longitude data, or `false` on failure.
 	 */
